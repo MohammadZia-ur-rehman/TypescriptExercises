@@ -20,7 +20,7 @@
     placesToVisit.sort();
     console.log("Alphabetical order after sorting:");
     console.log(placesToVisit);
-    placesToVisit.sort().reverse();
+    placesToVisit.sort((a, b) => b.localeCompare(a));
     console.log("Reverse alphabetical order after sorting:");
     console.log(placesToVisit);
 }
