@@ -1,4 +1,4 @@
 "use strict";
-const userName = "\t\n  John Doe \n\t";
-console.log(`Name with whitespace: \"${userName}\"`);
-console.log(`Name without whitespace: "${userName.trim()}"`);
+const userName1 = "\t\n  John Doe \n\t";
+console.log(`Name with whitespace: \"${userName1}\"`);
+console.log(`Name without whitespace: "${userName1.trim()}"`);
