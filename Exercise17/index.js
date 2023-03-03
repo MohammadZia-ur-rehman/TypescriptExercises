@@ -14,7 +14,7 @@ guestsList2.splice(Math.floor(guestsList2.length / 2), 0, "hamid");
 guestsList2.push("hasnat");
 for (let guest of guestsList2)
     console.log(`Dear ${guest}, please join me for dinner.`);
-console.log("Sorry, the new dinner table won't arrive in time. I can only invite two people for dinner.");
+console.log("\nSorry, the new dinner table won't arrive in time. I can only invite two people for dinner.\n");
 while (guestsList2.length > 2)
     console.log(`Sorry ${guestsList2.pop()}, I can't invite you to dinner.`);
 for (let guest of guestsList2)
