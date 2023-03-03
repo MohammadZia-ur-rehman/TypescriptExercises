@@ -1,2 +1,2 @@
 "use strict";
-console.log("Hello World");
+console.log("Installed Node.js, TypeScript and VS Code on your computer.");
